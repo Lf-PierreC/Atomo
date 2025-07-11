@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "appTeste",
-    "slug": "appTeste",
+    "name": "Jogos de Casal",
+    "slug": "jogosdecasal",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "appteste",
+    "icon": "./assets/images/atomo-icon.png",
+    "scheme": "jogosdecasal",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,13 +13,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/atomo-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.lfpierrec.jogosdecasal"
     },
     "web": {
-      "bundler": "metro",
+      "bundler": "webpack",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "18725a49-217b-45c4-9b64-3d34bf025afe"
+      }
+    },
+    "owner": "lfpierrec"
   }
 }
