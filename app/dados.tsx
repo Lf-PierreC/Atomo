@@ -8,7 +8,7 @@ const categoriasDado = [
   "Beijo",
   "Contar um Segredo",
   "Fazer uma Declaração",
-  "Pergunta do ChatGPT",
+  "Pergunta",
   "Desafio",
   "Abraço"
 ];

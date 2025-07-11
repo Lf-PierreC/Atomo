@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Jogos de Casal",
-    "slug": "jogosdecasal",
+    "slug": "appTeste",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/atomo-icon.png",
@@ -20,7 +20,7 @@
       "package": "com.lfpierrec.jogosdecasal"
     },
     "web": {
-      "bundler": "webpack",
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
